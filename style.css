@@ -1,0 +1,45 @@
+header>div{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+main{
+    text-align: justify;
+}
+main>h1{
+    text-align: center;
+}
+#paragrafo{ 
+    display:flex;
+        align-items: center;
+        text-align: justify;
+    
+}
+#paragrafo>img{
+    width: 300px;
+    right: 300px;
+}
+#rodape{
+    background-color: aqua;
+    border-left: 0;
+}
+footer>h3{
+    text-align: center;
+}
+section {
+    display: flex;
+}
+div.img{
+    flex-basis: 50%;
+    text-align: center;
+    align-items: center;
+    
+}
+div.img>img{
+    width: 100px;
+    right: 100px;
+}
+div.contatos{
+    display: flex;
+}
